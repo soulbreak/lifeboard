@@ -11,7 +11,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @org.springframework.web.bind.annotation.RestController
-@RequestMapping("/gomspace/api")
+@RequestMapping("/lifeboard/api")
 public class RestController {
     Logger logger = LoggerFactory.getLogger(RestController.class);
     @GetMapping("/help")
